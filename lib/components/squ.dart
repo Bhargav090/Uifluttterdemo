@@ -10,12 +10,12 @@ class Squt extends StatelessWidget {
     return Container(
       padding: EdgeInsets.all(10),
       decoration: BoxDecoration(
-        border: Border.all(color: Colors.grey.shade300,),
-        borderRadius: BorderRadius.circular(23),
+        border: Border.all(color: Colors.white,),
+        borderRadius: BorderRadius.circular(20),
         color: Colors.grey.shade100
         
       ),
-      child: Image.asset(imagePath,height: 50,),
+      child: Image.asset(imagePath,height: 40,),
     );
   }
 }
