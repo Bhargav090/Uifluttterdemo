@@ -24,12 +24,12 @@ class MyTextField extends StatelessWidget {
             obscureText: obscureText,
             decoration: InputDecoration(
               enabledBorder: OutlineInputBorder(
-                borderSide: BorderSide(color: Colors.white, width: 2.0), // Updated border color and width
+                borderSide: BorderSide(color: Colors.white, width: 1.0), // Updated border color and width
                 borderRadius: BorderRadius.circular(20.0),
               ),
               focusedBorder: OutlineInputBorder(
                 borderSide: BorderSide(color: Colors.white),
-                borderRadius: BorderRadius.circular(30.0),
+                borderRadius: BorderRadius.circular(20.0),
               ),
               filled: true,
               fillColor: Colors.white,
